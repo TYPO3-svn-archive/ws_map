@@ -1,0 +1,34 @@
+<f:layout name="default" />
+<f:section name="main">
+ 
+
+<div id="map" class="map">
+<f:for each="{items}" as="item">
+  <div id="{item.id}" class="point-{item.icon} abs" style="left:{item.x}px; bottom:{item.y}px;">
+    <div class="title align-{item.align}">
+      <f:if condition="{item.link}">
+        <f:then>
+          <f:link.page pageUid="{item.link}">{item.name}</f:link.page>
+        </f:then>
+        <f:else>
+          <span>{item.name}</span>
+        </f:else>
+      </f:if>
+      </div>
+    <div class="desc" id="{item.id}-desc">
+      <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{item.description}</f:format.html>
+    </div>
+  </div>
+</f:for>
+</div>
+
+<style type="text/css">
+.map {
+  background:url(<f:cObject typoscriptObjectPath="plugin.tx_wsmap.map" />) no-repeat; 
+  width:{settings.width}px; 
+  height:{settings.height}px;  
+}  
+
+{settings.css}
+</style>
+</f:section>

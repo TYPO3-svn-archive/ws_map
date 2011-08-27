@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Graphical map extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_wsmap_domain_model_item">Item</label>
+			<label index="tx_wsmap_domain_model_item.name">name</label>
+			<label index="tx_wsmap_domain_model_item.id">id</label>
+			<label index="tx_wsmap_domain_model_item.latitude">latitude</label>
+			<label index="tx_wsmap_domain_model_item.longitude">longitude</label>
+			<label index="tx_wsmap_domain_model_item.description">description</label>
+			<label index="tx_wsmap_domain_model_item.link">link</label>
+			<label index="tx_wsmap_domain_model_item.align">align</label>
+			<label index="tx_wsmap_domain_model_item.icon">icon</label>
+		</languageKey>
+	</data>
+</T3locallang>

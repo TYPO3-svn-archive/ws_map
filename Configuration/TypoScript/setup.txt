@@ -1,0 +1,80 @@
+plugin.tx_wsmap.settings {
+  width = {$plugin.tx_wsmap.width}
+  height = {$plugin.tx_wsmap.height}
+  topY = {$plugin.tx_wsmap.topY}
+  rightX = {$plugin.tx_wsmap.rightX}
+  bottomY = {$plugin.tx_wsmap.bottomY}
+  leftX = {$plugin.tx_wsmap.leftX}
+  
+  css = {$plugin.tx_wsmap.css}
+}
+
+plugin.tx_wsmap.map = IMG_RESOURCE
+plugin.tx_wsmap.map {
+  file = {$plugin.tx_wsmap.map}
+  file.width = {$plugin.tx_wsmap.width}
+  file.height = {$plugin.tx_wsmap.height} 
+}
+
+plugin.tx_wsmap._CSS_DEFAULT_STYLE (
+    div.map {
+    position:relative;
+    overflow: visible;
+  }
+  div.map .abs {
+    position:absolute;
+    cursor:pointer;
+  }
+  div.map .abs .desc {
+    display: none;
+  }
+  div.map div.point-1{
+    background:url(/typo3conf/ext/ws_map/Resources/Public/Icons/pin_red.png) no-repeat;
+    width:32px;
+    height: 32px;
+  }
+  div.map div.point-2{
+    background:url(/typo3conf/ext/ws_map/Resources/Public/Icons/pin_yellow.png) no-repeat;
+    width:32px;
+    height: 32px;
+  }
+  div.map div.point-3{
+    background:url(/typo3conf/ext/ws_map/Resources/Public/Icons/pin_blue.png) no-repeat;
+    width:32px;
+    height: 32px;
+  }
+  div.map .title {
+    position: relative;
+  }
+  div.map .title a, div.map .title a:visited,  div.map .title span{
+    font-weight: bold; 
+    text-transform: uppercase; 
+  }
+  div.map .title a:hover{ text-decoration: none; }
+  div.map .title span { text-decoration: none;}
+  div.map .align-1 {
+    left:25px;
+    bottom:-5px;
+  }
+  div.map .align-2 {
+    left:25px;
+    bottom:-15px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    z-index: 3000;
+    border: 1px solid grey;
+    background-color: #fff;
+    padding: 5px;
+    opacity: 0.85;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align:left;
+    
+  }
+  #tooltip * {
+    color:#585669;
+  }
+  #tooltip h3, #tooltip div { margin: 0; }
+)

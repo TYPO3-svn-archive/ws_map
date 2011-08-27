@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ws_map'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+      <label index="pi1">Show map</label>
+      
+      <label index="pi_flexform.sheet_main">Settings</label>
+      <label index="pi_flexform.sheet_main.map">Map image resource</label>
+      <label index="pi_flexform.sheet_main.css">Custom CSS</label>
+      <label index="pi_flexform.sheet_main.width">Width</label>
+      <label index="pi_flexform.sheet_main.topY">Top point y</label>
+      <label index="pi_flexform.sheet_main.rightX">Right point x</label>
+      <label index="pi_flexform.sheet_main.bottomY">Bottom point y</label>
+      <label index="pi_flexform.sheet_main.leftX">left point x</label>
+    
+			<label index="tx_wsmap_domain_model_item">Item</label>
+			<label index="tx_wsmap_domain_model_item.name">Name</label>
+			<label index="tx_wsmap_domain_model_item.id">Id</label>
+			<label index="tx_wsmap_domain_model_item.latitude">Latitude</label>
+			<label index="tx_wsmap_domain_model_item.longitude">Longitude</label>
+			<label index="tx_wsmap_domain_model_item.description">Description</label>
+			<label index="tx_wsmap_domain_model_item.link">Link</label>
+			<label index="tx_wsmap_domain_model_item.align">Align</label>
+			<label index="tx_wsmap_domain_model_item.align.top">Top</label>
+			<label index="tx_wsmap_domain_model_item.align.bottom">Bottom</label>
+			<label index="tx_wsmap_domain_model_item.icon">Icon</label>
+			<label index="tx_wsmap_domain_model_item.icon.red">Red</label>
+      <label index="tx_wsmap_domain_model_item.icon.yellow">Yellow</label>
+      <label index="tx_wsmap_domain_model_item.icon.blue">Blue</label>
+		</languageKey>
+    <languageKey index="ru" type="array">
+      <label index="pi1">Показать карту</label>
+      
+      <label index="pi_flexform.sheet_main">Настройки</label>
+      <label index="pi_flexform.sheet_main.map">Файл карты</label>
+      <label index="pi_flexform.sheet_main.css">Пользовательский CSS</label>
+      <label index="pi_flexform.sheet_main.width">Ширина карты в пикселях</label>
+      <label index="pi_flexform.sheet_main.topY">Верхний край (величина широты)</label>
+      <label index="pi_flexform.sheet_main.rightX">Правый край (величина долготы)</label>
+      <label index="pi_flexform.sheet_main.bottomY">Нижний край (величина широты)</label>
+      <label index="pi_flexform.sheet_main.leftX">Левый край (величина долготы)</label>
+      
+			<label index="tx_wsmap_domain_model_item">Объекты на карте</label>
+			<label index="tx_wsmap_domain_model_item.name">Заглавие</label>
+			<label index="tx_wsmap_domain_model_item.id">Id - Уникальное имя (латинскими)</label>
+			<label index="tx_wsmap_domain_model_item.latitude">Широта</label>
+			<label index="tx_wsmap_domain_model_item.longitude">Долгота</label>
+			<label index="tx_wsmap_domain_model_item.description">Описание</label>
+			<label index="tx_wsmap_domain_model_item.link">Ссылка на страницу с описанием</label>
+			<label index="tx_wsmap_domain_model_item.align">Выравнивание</label>
+			<label index="tx_wsmap_domain_model_item.align.top">Сверху</label>
+      <label index="tx_wsmap_domain_model_item.align.bottom">Снизу</label>
+			<label index="tx_wsmap_domain_model_item.icon">Иконка</label>
+			<label index="tx_wsmap_domain_model_item.icon.red">Красная</label>
+			<label index="tx_wsmap_domain_model_item.icon.yellow">Желтая</label>
+			<label index="tx_wsmap_domain_model_item.icon.blue">Синяя</label>
+		</languageKey>
+	</data>
+</T3locallang>

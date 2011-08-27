@@ -1,0 +1,21 @@
+plugin.tx_wsmap {
+    # cat=plugin.ws_map/file/010; type=file[png,jpg,gif]; label= Map image: File of image map
+  map = typo3conf/ext/ws_map/Resources/Public/Images/Samples/map.Ukraine.jpg
+
+    # cat=plugin.ws_map/dims/011; type=int+; label= Width of map
+  width =  593
+    # cat=plugin.ws_map/dims/012; type=int+; label= Height of map
+  height =  400
+
+    # cat=plugin.ws_map/dims/013; type=string; label= Top Latitude: Latitude for top border of map image. Used for coordinate calculation
+  topY = 52.356029
+    # cat=plugin.ws_map/dims/014; type=string; label= Right Longitude: Longitude for right border of map image. Used for coordinate calculation
+  rightX = 40.42419
+    # cat=plugin.ws_map/dims/015; type=string; label= Bottom Latitude: Latitude for bottom border of map image. Used for coordinate calculation
+  bottomY = 44.320393
+    # cat=plugin.ws_map/dims/016; type=string; label= Left Longitude: Longitude for left border of map image. Used for coordinate calculation
+  leftX = 21.835323
+
+    # cat=plugin.ws_map/file/017; type=file[css,txt]; label= Custom CSS: File for some adjustments (Optional)
+  css =
+}
